@@ -1,0 +1,131 @@
+body{
+    margin:0;
+    padding:0;
+}
+header{
+    background: linear-gradient(to right,#2e0768,#4c10a7,#2e0768);
+    align-items: center;
+    justify-content: space-between;
+    display:flex;
+    padding: 10px;
+    position:sticky;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+header div.left h1{
+    margin: 0;
+    width:20px;
+}
+header div.left h1 a{
+    margin:0;
+    width:100%;
+    display: block;
+}
+header div.left h1 a img{
+    width: 100px;
+    display: block;
+    border-radius: 50%;
+}
+header div.right a{
+    color: #fff;
+    margin: 0;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+}
+header div.right a:hover{
+    color: #867e7e;
+}
+div.main{
+    align-items: center;
+    text-align: center;
+    padding:10px 0 50px;
+}
+div.main h1{
+    margin-bottom: 20px;
+}
+div.main ul{
+    margin-top: 20px ;
+    width: 40%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+div.main ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#ab{
+    background: #8252ca;
+    color: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+#ab:hover{
+    background: #36126d;
+}
+div.main div input{
+    padding: 4px 8px;
+    margin-bottom: 20px;
+}
+li button.com{
+    background: #3ba341;
+    padding:4px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration:none;
+}
+li button.com:hover{
+    background: #0a520d;
+}
+li button.Del{
+    background:#ca373f;
+    padding: 4px 5px;
+    border-radius:5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+li button.Del:hover{
+    background: #a51219;
+}
+li p.co{
+   text-decoration: line-through;
+}button.hide{
+    visibility: hidden;
+}
+#en{
+    color: #a51219;
+    margin-top: 2px;
+}
+#list{
+    background: #fff;
+    height: 300px;
+    padding: 20px;
+    overflow: scroll;
+}
+footer{
+    background: linear-gradient(to right,#2e0768,#4c10a7,#2e0768);
+    padding: 10px;
+    text-align: center;
+    position:fixed;
+    bottom: 0;
+    right:0;
+    left:0; 
+    z-index: 3px;
+}
+footer h2{
+    color: #fff;
+}
+footer a{
+    color:#d60f8a;
+    text-decoration:underline;
+    margin: 15px;
+    font-size: 20px;
+}
+footer a:hover{
+    color: #867e7e;
+}
